@@ -1,0 +1,193 @@
+@media all and (min-width:991px){
+    .menu ul{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+}
+@media all and (max-width:991px){
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .logo a i {
+        font-size: 3rem;
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 4px 7px;
+        border-radius: 4px;
+        color: #fff;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .logo a i:hover {
+        background: #191a1b;
+    }
+    .menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        margin: 2rem 0;
+        display: none;
+        text-align: center;
+    }
+    .menu ul li a {
+        margin: 1rem 0 1rem 0;
+    }
+    .banner-area .owl-nav {
+        display: none;
+    }
+    .banner-image {
+        height: auto;
+    }
+    p{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    h3 {
+        width: 95% !important;
+    }
+    .clients-logo {
+        padding: 2rem 0;
+    }
+    
+    .image-overly h2 {
+        font-size: 2rem;
+    }
+    .image-overly p {
+        font-size: 1.8rem;
+    }
+    .image-overly .image {
+        width: 8rem;
+        height: 8rem;
+    }
+    .social-contact-area .owl-nav {
+        display: none;
+    }
+    .footer-area h3 {
+        font-size: 1.2rem !important;
+        width: 100% !important;
+    }
+    .left-area,
+    .right-area {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+    .footer-area {
+        padding: 2rem 0;
+    }
+    .footer-area i {
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+    .clients-logo .clnt-img2 img{
+        width: 50%;
+    }
+}
+
+
+@media all and (max-width:767px){
+    h1 {
+        font-size: 2.5rem;
+    }
+    .section-padding {
+        padding: 4rem 0;
+    }
+    .studio-area .col-md-6 {
+        margin-bottom: 2rem;
+    }
+    h3 {
+        width: 100% !important;
+        font-size: 2.5rem;
+    }
+    .flat-area .hr-separator {
+        width: 100%;
+    }
+    .flat-area .button {
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+    .single-table {
+        margin: 3rem auto;
+    }
+    .pricing-table-area .section-header {
+        margin-bottom: 0;
+    }
+    .image-overly h2 {
+        font-size: 1.5rem;
+    }
+    .image-overly p {
+        font-size: 1.4rem;
+    }
+    .image-overly .image {
+        width: 8rem;
+        height: 8rem;
+    }
+    .single-image {
+        height: 25rem;
+    }
+    .single-social-contact {
+        padding: 4rem 0 6rem 0;
+    }
+    .contact-me-area {
+        padding: 3rem 0 6rem 0;
+    }
+}
+
+@media all and (max-width:576px){
+    body {
+        font-size: 1.4rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3 {
+        width: 100% !important;
+        font-size: 2rem !important;
+        line-height: 3rem !important;
+    }
+    h5 {
+        font-size: 1.8rem;
+    }
+    .table-content {
+        padding: 3rem 0 2.5rem 0;
+    }
+    .image-overly h2 {
+        font-size: 2rem;
+    }
+    .image-overly p {
+        font-size: 1.8rem;
+    }
+    .image-overly .image {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+@media all and (max-width:450px){
+    h1 {
+        font-size: 1.7rem;
+    }
+}

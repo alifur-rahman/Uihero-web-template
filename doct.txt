@@ -1,0 +1,14 @@
+=============fonts============
+
+1:- Arial
+	
+2:- Gotham 
+	:-book
+	:-medium
+	:-bold
+
+3:- CaecilaL TStd 
+		:-roman
+		:-bold
+
+4:- Yellowtail
